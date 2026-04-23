@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo de Caja</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<header class="caja">
+    <h1>MODELO DE CAJA CON HTML Y CSS</h1>
+</header>
+
+<nav>
+    <a href="#ej1">Ejercicio 1</a>
+    <a href="#ej2">Ejercicio 2</a>
+    <a href="#ej3">Ejercicio 3</a>
+</nav>
+
+<main class="caja">
+    <p>Este trabajo demuestra el uso correcto del modelo de caja aplicando margin, padding, border y border-radius con valores específicos.</p>
+</main>
+
+<footer class="caja">
+    <p>Nombre: TU NOMBRE</p>
+</footer>
+
+<hr>
+
+<!-- ================= EJERCICIO 1 ================= -->
+<section id="ej1">
+
+    <article class="caja tarjeta">
+        <p>Esta es una <span>tarjeta</span> de ejemplo.</p>
+    </article>
+
+    <article class="caja tarjeta">
+        <p>Otra <span>tarjeta</span> con contenido.</p>
+    </article>
+
+    <article class="caja tarjeta">
+        <p>Tercera <span>tarjeta</span> diseñada.</p>
+    </article>
+
+</section>
+
+<hr>
+
+<!-- ================= EJERCICIO 2 ================= -->
+<main id="ej2">
+    <section>
+        <div class="caja">
+            <article>
+                <p>Este es un artículo con contenido de ejemplo.</p>
+                <p>Aquí se aplican correctamente todas las propiedades del modelo de caja.</p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<hr>
+
+<!-- ================= EJERCICIO 3 ================= -->
+<header class="caja bloque">HEADER</header>
+
+<nav class="caja bloque">NAV</nav>
+
+<main class="caja bloque">
+    <section>
+        <article class="caja bloque">CONTENIDO PRINCIPAL</article>
+        <aside class="caja bloque">BARRA LATERAL</aside>
+    </section>
+</main>
+
+<footer class="caja bloque">FOOTER</footer>
+
+</body>
+</html>
